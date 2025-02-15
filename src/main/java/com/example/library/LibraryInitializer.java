@@ -56,3 +56,15 @@ public class LibraryInitializer {
         library.addBook("Notes from Underground", "Fyodor Dostoevsky");
     }
 }
+
+
+//         GET http://localhost:8081/library/books
+//
+//         Додати книгу:
+//         POST http://localhost:8081/library/add?title=Гаррі Поттер&author=Джоан Роулінг
+//
+//         Пошук за назвою:
+//         GET http://localhost:8081/library/search/title?title=Гаррі Поттер
+//
+//         Пошук за автором:
+//         GET http://localhost:8081/library/search/author?author=Джоан Роулінг
